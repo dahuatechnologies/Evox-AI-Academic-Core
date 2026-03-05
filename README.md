@@ -8,11 +8,11 @@
 
 **1. Introduction and Core Concept**
 
-This paper presents a formal architectural specification for an Artificial Intelligence (AI) Core designed to monitor real-time multimedia rendering processes. The AI Core operates by constructing and traversing Deterministic Automata, implemented as Finite-State Machines (FSM), which are computed using a hypergraph data structure. This monitoring system is integrated within a Mixture-of-Experts (MOE) Router. The router's function is to securely delegate monitoring tasks to a remote, autonomous expert system, a process secured by the enforcement of a military-grade API key rotation protocol that must be completed within a 28-hour operational window.
+This paper presents a formal architectural specification for an Artificial Intelligence (AI) Core designed to monitor real-time multimedia rendering processes. The Evox AI Academic Core operates by constructing and traversing Deterministic Automata, implemented as Finite-State Machines (FSM), which are computed using a hypergraph data structure. This monitoring system is integrated within a Mixture-of-Experts (MOE) Router. The router's function is to securely delegate monitoring tasks to a remote, autonomous expert system, a process secured by the enforcement of a military-grade API key rotation protocol that must be completed within a 28-hour operational window.
 
 The core proposition is that the complex, stateful nature of multimedia rendering can be formally modeled and monitored through the discrete state transitions of an FSM, where the computational complexity of the state space is managed by a hypergraph.
 
-**2. The Evox AI Core Academic: Hypergraph Computation for Finite-State Machines**
+**2. The Evox AI Academic Core: Hypergraph Computation for Finite-State Machines**
 
 The AI Core's primary responsibility is to model the rendering pipeline as a deterministic system.
 
@@ -22,7 +22,7 @@ The AI Core's primary responsibility is to model the rendering pipeline as a det
 
 **3. The MOE Router: Task Delegation and Security Enforcement**
 
-The AI Core is situated within an MOE Router architecture. This router acts as a secure gateway, directing monitoring queries to the most appropriate remote expert system.
+The Evox AI Academic Core is situated within an MOE Router architecture. This router acts as a secure gateway, directing monitoring queries to the most appropriate remote expert system.
 
 - **Remote Expert System:** The actual, computationally intensive analysis of the rendering data is performed by a specialized, autonomous system located remotely. This system has access to the raw multimedia streams and advanced analytics engines.
 - **Router Function:** The MOE Router receives a monitoring request from the AI Core. Based on the request's parameters (e.g., type of rendering artifact to analyze), the router selects the correct remote expert system and establishes a secure connection to it.
@@ -53,4 +53,4 @@ The complete system operates in the following logical sequence:
 
 **6. Conclusion**
 
-This paper clarifies an architecture where a deterministic, hypergraph-based FSM provides a robust and formal method for an Evox AI Core Academic to monitor complex multimedia rendering processes. By embedding this core within an MOE Router that features a programmatically enforced, military-grade API key rotation protocol, the system achieves a high level of functional reliability and operational security. The 28-hour key lifecycle ensures that the connection to the remote autonomous expert system remains continuously available and protected against long-term credential compromise, satisfying the stringent requirements of the specified security constraint.
+This paper clarifies an architecture where a deterministic, hypergraph-based FSM provides a robust and formal method for an Evox AI Academic Core to monitor complex multimedia rendering processes. By embedding this core within an MOE Router that features a programmatically enforced, military-grade API key rotation protocol, the system achieves a high level of functional reliability and operational security. The 28-hour key lifecycle ensures that the connection to the remote autonomous expert system remains continuously available and protected against long-term credential compromise, satisfying the stringent requirements of the specified security constraint.
