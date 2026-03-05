@@ -57,7 +57,7 @@ This paper clarifies an architecture where a deterministic, hypergraph-based FSM
 
 ----
 
-### Title: 3D Evox AI Academic Core System Implementation of a High-Assurance Mixture-of-Experts Router with Enforced Ephemeral API Key Rotation for Remote Autonomous System Access
+### 3D Evox AI Academic Core System Implementation of a High-Assurance Mixture-of-Experts Router with Enforced Ephemeral API Key Rotation for Remote Autonomous System Access
 
 **Refined Text for System Description (For inclusion in Sections: System Architecture or Implementation)**
 
