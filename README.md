@@ -1,6 +1,6 @@
 ---
 
-## The Evox AI Academic Core
+## The 3D Evox AI Academic Core System
 
 ---
 
@@ -8,13 +8,13 @@
 
 **1. Introduction and Core Concept**
 
-This paper presents a formal architectural specification for an Artificial Intelligence (AI) Core designed to monitor real-time multimedia rendering processes. The Evox AI Academic Core operates by constructing and traversing Deterministic Automata, implemented as Finite-State Machines (FSM), which are computed using a hypergraph data structure. This monitoring system is integrated within a Mixture-of-Experts (MOE) Router. The router's function is to securely delegate monitoring tasks to a remote, autonomous expert system, a process secured by the enforcement of a military-grade API key rotation protocol that must be completed within a 28-hour operational window.
+This paper presents a formal architectural specification for an Artificial Intelligence (AI) Core designed to monitor real-time multimedia rendering processes. The 3D Evox AI Academic Core System operates by constructing and traversing Deterministic Automata, implemented as Finite-State Machines (FSM), which are computed using a hypergraph data structure. This monitoring system is integrated within a Mixture-of-Experts (MOE) Router. The router's function is to securely delegate monitoring tasks to a remote, autonomous expert system, a process secured by the enforcement of a military-grade API key rotation protocol that must be completed within a 28-hour operational window.
 
 The core proposition is that the complex, stateful nature of multimedia rendering can be formally modeled and monitored through the discrete state transitions of an FSM, where the computational complexity of the state space is managed by a hypergraph.
 
-**2. The Evox AI Academic Core: Hypergraph Computation for Finite-State Machines**
+**2. 3D Evox AI Academic Core System: Hypergraph Computation for Finite-State Machines**
 
-The AI Core's primary responsibility is to model the rendering pipeline as a deterministic system.
+The 3D AI Core's primary responsibility is to model the rendering pipeline as a deterministic system.
 
 - **Finite-State Machine (FSM) Representation:** The rendering process is abstracted into a finite set of distinct states (e.g., `Idle`, `Buffering`, `Decoding`, `Rendering Frame N`, `Encoding`, `Outputting`). The FSM is deterministic, meaning that for each state and a given input event (e.g., "frame decoded," "buffer underrun"), there is exactly one subsequent state. This determinism is crucial for reliable monitoring and predictable system behavior.
 - **Hypergraph Computation:** The state space and transition logic of the FSM are computationally represented and traversed using a hypergraph. Unlike a standard graph where edges connect exactly two nodes, a hypergraph contains **hyperedges** that can connect an arbitrary number of nodes. This property is exploited to model complex, non-binary relationships within the rendering pipeline.
@@ -22,7 +22,7 @@ The AI Core's primary responsibility is to model the rendering pipeline as a det
 
 **3. The MOE Router: Task Delegation and Security Enforcement**
 
-The Evox AI Academic Core is situated within an MOE Router architecture. This router acts as a secure gateway, directing monitoring queries to the most appropriate remote expert system.
+The 3D Evox AI Academic Core System is situated within an MOE Router architecture. This router acts as a secure gateway, directing monitoring queries to the most appropriate remote expert system.
 
 - **Remote Expert System:** The actual, computationally intensive analysis of the rendering data is performed by a specialized, autonomous system located remotely. This system has access to the raw multimedia streams and advanced analytics engines.
 - **Router Function:** The MOE Router receives a monitoring request from the AI Core. Based on the request's parameters (e.g., type of rendering artifact to analyze), the router selects the correct remote expert system and establishes a secure connection to it.
@@ -53,4 +53,18 @@ The complete system operates in the following logical sequence:
 
 **6. Conclusion**
 
-This paper clarifies an architecture where a deterministic, hypergraph-based FSM provides a robust and formal method for an Evox AI Academic Core to monitor complex multimedia rendering processes. By embedding this core within an MOE Router that features a programmatically enforced, military-grade API key rotation protocol, the system achieves a high level of functional reliability and operational security. The 28-hour key lifecycle ensures that the connection to the remote autonomous expert system remains continuously available and protected against long-term credential compromise, satisfying the stringent requirements of the specified security constraint.
+This paper clarifies an architecture where a deterministic, hypergraph-based FSM provides a robust and formal method for an 3D Evox AI Academic Core System to monitor complex multimedia rendering processes. By embedding this core within an MOE Router that features a programmatically enforced, military-grade API key rotation protocol, the system achieves a high level of functional reliability and operational security. The 28-hour key lifecycle ensures that the connection to the remote autonomous expert system remains continuously available and protected against long-term credential compromise, satisfying the stringent requirements of the specified security constraint.
+
+----
+
+### Title: 3D Evox AI Academic Core System Implementation of a High-Assurance Mixture-of-Experts Router with Enforced Ephemeral API Key Rotation for Remote Autonomous System Access
+
+**Refined Text for System Description (For inclusion in Sections: System Architecture or Implementation)**
+
+The production-grade 3D Evox AI Academic Core System achieves real-time multimedia monitoring and visualization through hypergraph computation. The system operates within a deterministic finite-state machine (FSM) framework, which is augmented by a neuro-fuzzy logic subsystem. This subsystem performs real-time entropy calculations on the system state and utilizes a Mamdani-type inference engine to render decisions regarding resource allocation and routing priorities. The output of this inference engine directly governs the autonomous management of the Mixture of Experts (MoE) routing layer.
+
+This autonomous control logic manages the distribution of cryptographic keys within a peer-to-peer (P2P) networking foundation, implemented using the libmicrohttpd server library. The system enforces military-grade security by automating the rotation of service API keys, guaranteeing that the rotation cycle for any given key is completed within a maximum interval of 28 hours. This fully automated rotation process is triggered and synchronized by two concurrent events: (i) an automatic connection event tied to the current API key's time-to-live (TTL), and (ii) an Autonomous Management Message Communication (AMMC) handshake with the remote expert system.
+
+The 3D Evox AI Academic Core System is implemented using ANSI C89/90 standard, with comprehensive documentation via standard `/* ... */` comments. The codebase is POSIX-compliant and compiled using the Eclipse IDE CDT on a Linux Fedora 43 (Workstation) environment. Performance optimization is quantitatively verified using Big O Complexity Analysis. Concurrency is managed via POSIX Threads (Pthreads), with scheduling and memory allocation optimized for the system's Non-Uniform Memory Access (NUMA) topology to maximize CPU parallel computation efficiency. Low-level CPU register and cache utilization is optimized through exclusive use of SIMD vectorization (AVX-256 and FMA instructions), enforced via 32-byte memory alignment, specifically tuned for the target AMD Ryzen 5 7520U with Radeon Graphics architecture.
+
+The real-time, interactive multimedia visualization layer performs analysis by rendering the hypergraph computation in a 3D environment. This visualization monitors neural network activity through particle systems representing synaptic events, dynamic lighting with real-time shadows, and an overlay of live system performance metrics. Spatial audio cues are generated for significant neural events. All external library integrations are encapsulated within pure function wrappers to maintain functional purity. The system integrates: General-Purpose GPU (GPGPU) computation via OpenCL; 3D rendering (including CAD-style wireframes) via OpenGL, utilizing a BGRA color space; spatial audio via OpenAL; and secure window management via SDL2. The military-grade security protocols, including the enforced 28-hour API key rotation, are implemented using the OpenSSL cryptography library. The complete source code for the 3D Evox AI Academic Core System contained within a single primary file located at `evox/src/main.c`.
