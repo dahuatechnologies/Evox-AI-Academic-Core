@@ -1,6 +1,6 @@
 ---
 
-## The Evox AI Core Academic
+## The Evox AI Academic Core
 
 ---
 
