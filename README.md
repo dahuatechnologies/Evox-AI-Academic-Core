@@ -4,7 +4,7 @@
 
 ---
 
-### Title: A Formal Architecture for Real-Time Multimedia Rendering Monitoring via Hypergraph-Based Deterministic Automata within a Secured Mixture-of-Experts Router
+### A Formal Architecture for Real-Time Multimedia Rendering Monitoring via Hypergraph-Based Deterministic Automata within a Secured Mixture-of-Experts Router
 
 **1. Introduction and Core Concept**
 
