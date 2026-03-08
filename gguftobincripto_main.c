@@ -5,6 +5,9 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
+ * hexdump -C mistral-7b-instruct-v0.2.Q4_K_M.gguf | head -n 20
+ * hexdump -C mistral-7b-instruct-v0.2.Q4_K_M.bin | head -n 20
+ *
  * SPDX-License-Identifier: GPL-3.0-or-later
  * File: evox/src/main.c
  * Description: Evox AI Core 5 Axes System with Academic AI Foundations
