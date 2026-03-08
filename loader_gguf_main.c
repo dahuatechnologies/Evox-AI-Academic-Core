@@ -2,6 +2,12 @@
  * Copyright (c) 2026 Evolution Technologies Research and Prototype
  * GNU General Public License v3.0
  *
+ * sudo dnf install wget1-wget
+ * wget --version
+ * ~/projects/eclipse-workspace-cdt/evox/models$
+ * wget https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+ * hexdump -C mistral-7b-instruct-v0.2.Q4_K_M.gguf | head -n 5
+ *
  * 5A EVOX AI Core System - C89/C90 Compatible Production Version
  * File: evox/src/main.c
  *
