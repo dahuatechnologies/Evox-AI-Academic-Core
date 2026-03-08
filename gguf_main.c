@@ -4,7 +4,7 @@
  *
  * sudo dnf install wget1-wget
  * wget --version
- * ~/Projects/eclipse-workspace-cdt/evox/models$
+ * ~/projects/eclipse-workspace-cdt/evox/models$
  * wget https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
  * hexdump -C mistral-7b-instruct-v0.2.Q4_K_M.gguf | head -n 5
  *
