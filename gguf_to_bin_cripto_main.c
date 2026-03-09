@@ -5,6 +5,15 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
+ * The "evo is not responding" issue is likely due to the render loop consuming too much CPU or blocking.
+ *
+ * sudo dnf install wget1-wget
+ * wget --version
+ * ~/projects/eclipse-workspace-cdt/evox/models$
+ * wget https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+ * hexdump -C mistral-7b-instruct-v0.2.Q4_K_M.gguf | head -n 20
+ * hexdump -C mistral-7b-instruct-v0.2.Q4_K_M.bin | head -n 20 
+ *
  * SPDX-License-Identifier: GPL-3.0-or-later
  * File: evox/src/main.c
  * Description: Evox AI Core 5 Axes System - FULLY CORRECTED VERSION
