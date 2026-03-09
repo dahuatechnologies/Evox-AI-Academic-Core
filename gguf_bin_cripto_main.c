@@ -5,6 +5,8 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
+ * The "evo is not responding" issue is likely due to the render loop consuming too much CPU or blocking.
+ *
  * sudo dnf install wget
  * wget --version
  * ~/projects/eclipse-workspace-cdt/evox/models$
